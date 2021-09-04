@@ -2,7 +2,7 @@ $(function () {
     $('.hamburger').click(function () {
         $('.main-menu').toggleClass('active')
     });
-    $('.main-menu li a').on("click", function (e) {
+    $('.main-menu li a').click(function (e) {
         e.preventDefault();
         let href = $(this).attr('href');
 
